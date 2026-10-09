@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Green View Hostel (run the system)",
+            "request": "launch",
+            "mainClass": "ug.ac.vu.greenview.app.GreenViewHostelApp",
+            "projectName": "GreenViewHostel",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run all system tests",
+            "request": "launch",
+            "mainClass": "ug.ac.vu.greenview.tests.SystemTests",
+            "projectName": "GreenViewHostel",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
